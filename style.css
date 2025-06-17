@@ -1,0 +1,111 @@
+.root {
+    -fx-background-color: white;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.label {
+    -fx-text-fill: #3f0071;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #9d4edd;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #7b2cbf;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-table-cell-border-color: #ccc;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #9d4edd;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Dezenter Glas-Look für Buttons */
+.button {
+    -fx-background-color:
+        linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(203,166,247,0.7));
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #a36ff7;
+    -fx-border-width: 1px;
+    -fx-text-fill: #4b0082;
+    -fx-font-size: 12px;
+    -fx-font-weight: normal;
+    -fx-padding: 5 12;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.15), 2, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color:
+        linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(203,166,247,0.85));
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.3), 4, 0, 0, 1);
+}
+
+/* Dezenter Stil für ComboBox */
+.combo-box {
+    -fx-background-color:
+        linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(203,166,247,0.7));
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #a36ff7;
+    -fx-border-width: 1px;
+    -fx-text-fill: #4b0082;
+    -fx-font-size: 12px;
+    -fx-font-weight: normal;
+    -fx-padding: 3 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.15), 2, 0, 0, 1);
+}
+
+.combo-box:hover {
+    -fx-background-color:
+        linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(203,166,247,0.85));
+}
+
+.combo-box:focused {
+    -fx-border-color: #7a49d3;
+    -fx-border-width: 1.5px;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #4b0082;
+    -fx-font-size: 12px;
+    -fx-font-weight: normal;
+}
+
+.glanz-button {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #e0c6f0);
+    -fx-text-fill: #5a2a84;
+    -fx-border-color: #ab66d2;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 6 12;
+    -fx-font-size: 12px;
+    -fx-font-weight: normal;
+}
+
+
+/* style.css */
+
+.red-close-button {
+    -fx-background-color: linear-gradient(#ff4d4d, #cc0000);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 6 16;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.3), 4, 0.0, 0, 1);
+    -fx-cursor: hand;
+}
